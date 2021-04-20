@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragraph Maker</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <h1 class="heading">Paragraph Maker</h1>
+    <h4 class="heading_small">Fill the boxes and click on the buttons to get your desired output</h4>
+    <br>
+    <br>
+    <div class="paras">
+        <span>1. </span>
+        <input type="text" name="para1_box_1" id="para1_box_1">
+        <br><br>
+        <span>2. </span>
+        <input type="text" name="para1_box_2" id="para1_box_2">
+        <br><br>
+        <span>3. </span>
+        <input type="text" name="para1_box_3" id="para1_box_3">
+        <br><br>
+        <span>4. </span>
+        <input type="text" name="para1_box_4" id="para1_box_4">
+        <br><br>
+        <span>5. </span>
+        <input type="text" name="para1_box_5" id="para1_box_5">
+        <br><br>
+        <span>6. </span>
+        <input type="text" name="para1_box_6" id="para1_box_6">
+        <br><br>
+        <button onclick="paragraph1()" class="btn btn-primary">Get Paragraph 1</button>
+    </div>
+    <div class="paras">
+        <span>1. </span>
+        <input type="text" name="para2_box_1" id="para2_box_1">
+        <br><br>
+        <span>2. </span>
+        <input type="text" name="para2_box_2" id="para2_box_2">
+        <br><br>
+        <span>3. </span>
+        <input type="text" name="para2_box_3" id="para2_box_3">
+        <br><br>
+        <span>4. </span>
+        <input type="text" name="para2_box_4" id="para2_box_4">
+        <br><br>
+        <span>5. </span>
+        <input type="text" name="para2_box_5" id="para2_box_5">
+        <br><br>
+        <span>6. </span>
+        <input type="text" name="para2_box_6" id="para2_box_6">
+        <br><br>
+        <button onclick="paragraph2()" class="btn btn-danger">Get Paragraph 2</button>
+    </div>
+    <br>
+    <br>
+    <div id="para1" class="para"></div>
+    <br><br>
+    <div id="para2" class="para"></div>
+</body>
+</html>
